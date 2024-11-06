@@ -66,7 +66,6 @@ const LatestProjects = () => {
             </Text>
             <Text type={'body-03'}>{t('cards.card3.subtitle')}</Text>
             <Text type={'subtitle-03'}>{t('cards.card3.additional')}</Text>
-            <Text type={'link'}>{t('cards.card3.additional')}</Text>
           </div>
         </div>
         <LetsBuildFloater />

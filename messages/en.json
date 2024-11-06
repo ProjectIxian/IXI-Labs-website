@@ -42,7 +42,7 @@
     "accordion1": {
       "title": "Security as a foundation, not an after-thought",
       "subtitle": "Security aspects of an application or a service most of the times come as an after-thought and are too often sacrificed for other functionality due to tight deadlines and small budgets. IXI Labs designs all products with necessary security principles from the start.",
-      "subtitle2": "<br/><br/>We use the same cryptographic and other security methods as used in our decentralised platform, currently relied on by tens of thousands of users for secure communication and transferring value in the form of tokens."
+      "subtitle2": "We use the same cryptographic and other security methods as used in our decentralised platform, currently relied on by tens of thousands of users for secure communication and transferring value in the form of tokens."
     },
     "accordion2": {
       "title": "Increased Reliability",
@@ -68,7 +68,7 @@
       },
       "card3": {
         "title": "Secure Communication Protocols",
-        "subtitle": "Our solutions enable secure communications out-of-the-box, while our cryptographic methods ensure that your data remains secure, regardless of the underlying transport layer."
+        "subtitle": "Our solutions enable secure device discovery and communications out-of-the-box, while our cryptographic methods ensure that your data remains secure, regardless of the underlying transport layer."
       }
     }
   },

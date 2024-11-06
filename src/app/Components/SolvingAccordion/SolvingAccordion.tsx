@@ -42,7 +42,8 @@ const SolvingAccordion = () => {
       transitionTimeout={250}
     >
       <AccordionItem initialEntered header={t('accordion1.title')}>
-        <Text type={'body-02'}>{t('accordion1.subtitle')}</Text>
+        <Text type={'body-02'}>{t('accordion1.subtitle')}</Text><br/>
+        <br/>
         <Text type={'body-02'}>{t('accordion1.subtitle2')}</Text>
       </AccordionItem>
       <AccordionItem header={t('accordion2.title')}>
