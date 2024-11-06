@@ -1,0 +1,138 @@
+{
+  "Navbar": {
+    "services": "Services",
+    "useCases": "Use Cases",
+    "tech": "Technology & Products",
+    "about": "About",
+    "bookHere": "Book a Free Call"
+  },
+  "HeroSection": {
+    "title": "We Provide Greater Security & Reliability at Reduced Costs",
+    "subtitle": "Our solutions reduce infrastructure costs by up to 90%, while improving security, reliability and accessibility.",
+    "button": "Learn How You can Benefit"
+  },
+  "OurMission": {
+    "title": "Our <blue>Mission</blue>",
+    "subtitle": "At IXI Labs, we’re solving critical problems by redefining how authorisation and security are managed in the digital world. We specialise in <blue>creating solutions</blue> where <blue>cryptography</blue> and <blue>user sovereignty</blue> are at the core.",
+    "info1": {
+      "title": "100M+",
+      "subtitle": "Messages Encrypted and Delivered",
+      "body": "Our solutions are running 24/7 on our decentralised, open-source network. Currently distributed and encrypted across 200+ nodes worldwide."
+    },
+    "info2": {
+      "title": "18.8K+",
+      "subtitle": "Users Benefiting From IXI Security",
+      "body": "Our solutions, projects and products are loved and trusted by thousands of users globally."
+    },
+    "info3": {
+      "title": "8 <small>years</small>",
+      "subtitle": "of Development",
+      "body": "Backed by 20 years of research, and 8 years of active development - we continue to build secure and encrypted solutions for the market needs."
+    }
+  },
+  "CuttingEdgeSection": {
+    "title": "Let’s find out how we can help you improve your business.",
+    "bookHere": "Book a Free Call"
+  },
+  "SolvingTheProblem": {
+    "title": "Solving Your <blue>Challenges</blue>",
+    "subtitle": "In today’s digital landscape, the foundation of online identity and communication is fundamentally flawed.",
+    "accordion1": {
+      "title": "Improved Security",
+      "subtitle": "No additional reliance on task specific staff, security in this case. IXI Labs transparently handles cryptographic and other elements related to security in our libraries and patents.",
+      "subtitle2": "Our platform enables seamless integration of all security features that you need for your business."
+    },
+    "accordion2": {
+      "title": "Increased Reliability",
+      "subtitle": "Our platform is provably decentralised and distributed, as such it operates without a single point of failure. In addition it boasts up to 100% uptime."
+    },
+    "accordion3": {
+      "title": "Reduced Costs & Complexity",
+      "subtitle": "Your teams don’t need to have security and network communication expertise. \nWe provide the infrastructure so you can save money on it. You don’t need DevOps, SysOps."
+    }
+  },
+  "OurServices": {
+    "smallTitle": "WHAT WE SPECIALISE IN",
+    "title": "Fullstack Encryption and Distributed Compute",
+    "subtitle": "At IXI Labs, we’re solving critical problems of the new digital world by redefining how <blue>identity, security</blue> and <blue>communications</blue> are managed in the digital world. We are a development agency specializing in creating solutions where <blue>cryptography, maximum availability</blue> and user <blue>sovereignty</blue> are at the core.",
+    "cards": {
+      "card1": {
+        "title": "Public Key as Identity",
+        "subtitle": "Removing the need for usernames, third-party trust, or arbitrary identifiers. All metadata (names, IPs, etc.) is linked directly to your public key, ensuring a more reliable and secure identity."
+      },
+      "card2": {
+        "title": "Device Self-Sovereignty",
+        "subtitle": "Each device acts as a self-contained unit. This way your service doesn’t need to rely on internet connectivity or other servers."
+      },
+      "card3": {
+        "title": "Secure Communication Protocols",
+        "subtitle": "Our solutions shield your IP address from exposure, mitigating the risks of direct attacks, while our cryptographic methods ensure that your data remains secure, regardless of the underlying transport layer."
+      }
+    }
+  },
+  "UseCases": {
+    "smallTitle": "USE CASES",
+    "title": "When high encryption, scalability and low cost solution is required.",
+    "cards": {
+      "readMore": "Read more",
+      "card1": {
+        "title": "Access Management",
+        "subtitle": "Access controls and management. Bridging technologies for a safe and secure environment."
+      },
+      "card2": {
+        "title": "Device Connectivity",
+        "subtitle": "User-to-user, user-to-device, device-to-device and the new way to operate in the IoT world."
+      },
+      "card3": {
+        "title": "Communications",
+        "subtitle": "Protected and secure communication keeping our world connected in the next decade."
+      }
+    }
+  },
+  "LatestProjects": {
+    "smallTitle": "TECHNOLOGY & PRODUCTS",
+    "title": "Our Latest Projects",
+    "cards": {
+      "card1": {
+        "title": "IXI Names",
+        "subtitle": "Naming service powered by the Ixian platform. Secured by blockchain and expanding on the functionality of the traditional naming services.",
+        "additional": "Coming Soon"
+      },
+      "card2": {
+        "title": "Spixi Private Chat",
+        "subtitle": "Spixi is an encrypted peer-to-peer messaging and communications app with exclusive features and reduced operational costs.",
+        "additional": "Visit Spixi Website"
+      },
+      "card3": {
+        "title": "Ixian Distributed Ledger",
+        "subtitle": "Distributed Ledger Technology with a high performing and robust blockchain network.",
+        "additional": "Visit Ixian Website"
+      }
+    }
+  },
+  "BuildFloater": {
+    "title": "Let’s build your project",
+    "bookCall": "Book a Free Call"
+  },
+  "Footer": {
+    "title": "Pioneering Decentralized Technologies",
+    "copyright": "© {year} IXI Labs. All rights reserved.",
+    "contact": {
+      "slo": {
+        "street": "Zaloška cesta 160C",
+        "city": "1260 Ljubljana-Polje",
+        "country": "Slovenija"
+      },
+      "eng": {
+        "street": "Suite 99 Milton Keynes Business Centre",
+        "city": "Foxhunter Drive, Milton Keynes",
+        "country": "United Kingdom"
+      }
+    }
+  }
+}
+
+
+
+
+
