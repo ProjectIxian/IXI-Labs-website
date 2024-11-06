@@ -20,7 +20,7 @@ const CuttingEdgeSection = () => {
       <ContentWrapper className={classes.wrapper}>
         <div className={classes.content}>
           <Text type={'title-05'}>{t('title')}</Text>
-          <Button>{t('bookHere')}</Button>
+          <Button><Link href={t('bookUrl')}>{t('bookHere')}</Link></Button>
         </div>
       </ContentWrapper>
     </section>

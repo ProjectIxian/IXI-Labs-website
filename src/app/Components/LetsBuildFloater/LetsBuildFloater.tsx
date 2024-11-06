@@ -11,7 +11,7 @@ const LetsBuildFloater = () => {
       <Text as={'h1'} type={'title-03'}>
         {t('title')}
       </Text>
-      <Button variant={'outlined'}>{t('bookCall')}</Button>
+      <Button variant={'outlined'}><Link href={t('bookUrl')}>{t('bookCall')}</Link></Button>
     </section>
   );
 };

@@ -46,10 +46,10 @@ const SolvingAccordion = () => {
         <Text type={'body-02'}>{t('accordion1.subtitle2')}</Text>
       </AccordionItem>
       <AccordionItem header={t('accordion2.title')}>
-        <Text type={'body-02'}>{t('accordion1.subtitle')}</Text>
+        <Text type={'body-02'}>{t('accordion2.subtitle')}</Text>
       </AccordionItem>
       <AccordionItem header={t('accordion3.title')}>
-        <Text type={'body-02'}>{t('accordion1.subtitle')}</Text>
+        <Text type={'body-02'}>{t('accordion3.subtitle')}</Text>
       </AccordionItem>
     </Accordion>
   );

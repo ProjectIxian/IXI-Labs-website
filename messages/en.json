@@ -14,7 +14,7 @@
   },
   "OurMission": {
     "title": "Our <blue>Mission</blue>",
-    "subtitle": "At IXI Labs, we’re solving critical problems by redefining how authorisation and security are managed in the digital world. We specialise in <blue>creating solutions</blue> where <blue>cryptography</blue> and <blue>user sovereignty</blue> are at the core.",
+    "subtitle": "At IXI Labs, we’re solving critical problems by redefining how authorisation and secure communications are managed in the digital world. We specialise in <blue>creating solutions</blue> where <blue>cryptography</blue> and <blue>user sovereignty</blue> are at the core.",
     "info1": {
       "title": "100M+",
       "subtitle": "Messages Encrypted and Delivered",
@@ -41,8 +41,8 @@
     "subtitle": "In today’s digital landscape, the foundation of online identity, security and communication is fundamentally flawed.",
     "accordion1": {
       "title": "Security as a foundation, not an after-thought",
-      "subtitle": "Security aspects of an application or a service most of the times come as an after-though and are too often sacrificed for other functionality due to tight deadlines and small budgets. IXI Labs designs all products with necessary security principles from the start.",
-      "subtitle2": "We use the same cryptographic and other security methods as used in our decentralised platform, currently relied on by tens of thousands of users for secure communication and transferring value in the form of tokens."
+      "subtitle": "Security aspects of an application or a service most of the times come as an after-thought and are too often sacrificed for other functionality due to tight deadlines and small budgets. IXI Labs designs all products with necessary security principles from the start.",
+      "subtitle2": "<br/><br/>We use the same cryptographic and other security methods as used in our decentralised platform, currently relied on by tens of thousands of users for secure communication and transferring value in the form of tokens."
     },
     "accordion2": {
       "title": "Increased Reliability",
@@ -68,7 +68,7 @@
       },
       "card3": {
         "title": "Secure Communication Protocols",
-        "subtitle": "Our solutions shield your IP address from exposure, mitigating the risks of direct attacks, while our cryptographic methods ensure that your data remains secure, regardless of the underlying transport layer."
+        "subtitle": "Our solutions enable secure communications out-of-the-box, while our cryptographic methods ensure that your data remains secure, regardless of the underlying transport layer."
       }
     }
   },
@@ -111,7 +111,7 @@
         "title": "IXI Names",
         "subtitle": "Naming service powered by the Ixian platform. Secured by blockchain and expanding on the functionality of the traditional naming services.",
         "additional": "Coming Soon",
-        "url": "https://www.ixian.com"
+        "url": "https://www.ixinames.com"
       }
     }
   },
