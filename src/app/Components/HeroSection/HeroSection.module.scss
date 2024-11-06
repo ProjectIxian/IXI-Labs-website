@@ -14,9 +14,13 @@
     padding: 164px 24px;
     min-height: 640px;
 
+    @include mq('xs') {
+      padding: 82px 24px;
+    }
+
     .info {
       width: 100%;
-      max-width: 440px;
+      max-width: 480px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;

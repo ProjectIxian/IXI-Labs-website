@@ -5,6 +5,8 @@ import Text from '@/app/Components/Text/Text';
 import Image from 'next/image';
 import heroImage from '../../../../public/assets/hero-image.svg';
 import Button from '@/app/Components/Button/Button';
+import Link from 'next/link';
+import { Section } from '@/app/Contants/contants';
 
 const HeroSection = () => {
   const t = useTranslations('HeroSection');
@@ -19,7 +21,9 @@ const HeroSection = () => {
           <Text type={'body-02'} as={'span'}>
             {t('subtitle')}
           </Text>
-          <Button variant={'outlined'}>{t('button')}</Button>
+          <Link href={`#${Section.SOLVING}`}>
+            <Button variant={'outlined'}>{t('button')}</Button>
+          </Link>
         </div>
         <Image
           src={heroImage}

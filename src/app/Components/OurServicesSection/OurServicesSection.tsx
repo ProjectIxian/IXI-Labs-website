@@ -20,7 +20,9 @@ const OurServicesSection = () => {
           </Text>
           <Text type={'title-04'}>{t('title')}</Text>
           <Text type={'body-03'} as={'div'} className={classes.subtitle}>
-            {t('subtitle')}
+            {t.rich('subtitle', {
+              blue: (chunks) => <span className={'blueText'}>{chunks}</span>,
+            })}
           </Text>
         </div>
         <div className={classes.cards}>
