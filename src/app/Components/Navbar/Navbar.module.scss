@@ -1,0 +1,39 @@
+@import 'src/app/styles/typograhphy';
+@import 'src/app/styles/mixins';
+
+.navbar {
+  width: 100%;
+  background: #0e1925;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  margin: 0 auto;
+
+  .content {
+    padding: 44px 24px 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mq('xs') {
+      flex-direction: column;
+      padding: 16px;
+      gap: 8px;
+      align-items: flex-start;
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 44px;
+
+      a {
+        @include caption-02;
+
+        @include mq('sm') {
+          display: none;
+        }
+      }
+    }
+  }
+}
