@@ -1,4 +1,5 @@
 import classes from './CuttingEdgeSection.module.scss';
+import Link from 'next/link';
 import ContentWrapper from '@/app/Components/ContentWrapper/ContentWrapper';
 import { useTranslations } from 'next-intl';
 import Text from '@/app/Components/Text/Text';
