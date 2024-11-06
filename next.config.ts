@@ -9,8 +9,8 @@ const nextConfig: import('next').NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/',
-  assetPrefix: '/',
+  basePath: '',
+  assetPrefix: '',
 };
 
 export default withNextIntl(nextConfig);
