@@ -4,7 +4,8 @@
     "useCases": "Use Cases",
     "tech": "Technology & Products",
     "about": "About",
-    "bookHere": "Book a Free Call"
+    "bookHere": "Book a Free Call",
+    "bookUrl": "mailto: call@ixilabs.com"
   },
   "HeroSection": {
     "title": "We Provide Greater Security & Reliability at Reduced Costs",
@@ -32,15 +33,16 @@
   },
   "CuttingEdgeSection": {
     "title": "Let’s find out how we can help you improve your business.",
-    "bookHere": "Book a Free Call"
+    "bookHere": "Book a Free Call",
+    "bookUrl": "mailto: call@ixilabs.com"
   },
   "SolvingTheProblem": {
     "title": "Solving Your <blue>Challenges</blue>",
-    "subtitle": "In today’s digital landscape, the foundation of online identity and communication is fundamentally flawed.",
+    "subtitle": "In today’s digital landscape, the foundation of online identity, security and communication is fundamentally flawed.",
     "accordion1": {
-      "title": "Improved Security",
-      "subtitle": "No additional reliance on task specific staff, security in this case. IXI Labs transparently handles cryptographic and other elements related to security in our libraries and patents.",
-      "subtitle2": "Our platform enables seamless integration of all security features that you need for your business."
+      "title": "Security as a foundation, not an after-thought",
+      "subtitle": "Security aspects of an application or a service most of the times come as an after-though and are too often sacrificed for other functionality due to tight deadlines and small budgets. IXI Labs designs all products with necessary security principles from the start.",
+      "subtitle2": "We use the same cryptographic and other security methods as used in our decentralised platform, currently relied on by tens of thousands of users for secure communication and transferring value in the form of tokens."
     },
     "accordion2": {
       "title": "Increased Reliability",
@@ -48,13 +50,13 @@
     },
     "accordion3": {
       "title": "Reduced Costs & Complexity",
-      "subtitle": "Your teams don’t need to have security and network communication expertise. \nWe provide the infrastructure so you can save money on it. You don’t need DevOps, SysOps."
+      "subtitle": "Your engineering teams don't require expensive security and network communication experts. We provide the necessary expertise and infrastructure, so you can focus on building the functionality which sets your service or product apart from the competition. Because the infrastructure is decentralised and largely handled by the community, the cost of DevOps, SysOps and general maintenance decreases."
     }
   },
   "OurServices": {
     "smallTitle": "WHAT WE SPECIALISE IN",
     "title": "Fullstack Encryption and Distributed Compute",
-    "subtitle": "At IXI Labs, we’re solving critical problems of the new digital world by redefining how <blue>identity, security</blue> and <blue>communications</blue> are managed in the digital world. We are a development agency specializing in creating solutions where <blue>cryptography, maximum availability</blue> and user <blue>sovereignty</blue> are at the core.",
+    "subtitle": "At IXI Labs, we’re solving critical problems of the new digital world by redefining how <blue>identity, security</blue> and <blue>communications</blue> are managed in the digital world. We are a development agency specialising in creating solutions where <blue>cryptography, maximum availability</blue> and user <blue>sovereignty</blue> are at the core.",
     "cards": {
       "card1": {
         "title": "Public Key as Identity",
@@ -62,7 +64,7 @@
       },
       "card2": {
         "title": "Device Self-Sovereignty",
-        "subtitle": "Each device acts as a self-contained unit. This way your service doesn’t need to rely on internet connectivity or other servers."
+        "subtitle": "Each device acts as a self-contained unit. This way your service doesn’t need to rely on internet connectivity or other servers for providing critical functionality to the usersY."
       },
       "card3": {
         "title": "Secure Communication Protocols",
@@ -85,7 +87,7 @@
       },
       "card3": {
         "title": "Communications",
-        "subtitle": "Protected and secure communication keeping our world connected in the next decade."
+        "subtitle": "Trustless communication platform keeping our world securely connected for decades to come."
       }
     }
   },
@@ -94,36 +96,42 @@
     "title": "Our Latest Projects",
     "cards": {
       "card1": {
-        "title": "IXI Names",
-        "subtitle": "Naming service powered by the Ixian platform. Secured by blockchain and expanding on the functionality of the traditional naming services.",
-        "additional": "Coming Soon"
-      },
-      "card2": {
         "title": "Spixi Private Chat",
         "subtitle": "Spixi is an encrypted peer-to-peer messaging and communications app with exclusive features and reduced operational costs.",
-        "additional": "Visit Spixi Website"
+        "additional": "Visit Spixi Website",
+        "url": "https://www.spixi.io"
       },
-      "card3": {
+      "card2": {
         "title": "Ixian Distributed Ledger",
         "subtitle": "Distributed Ledger Technology with a high performing and robust blockchain network.",
-        "additional": "Visit Ixian Website"
-      }
+        "additional": "Visit Ixian Website",
+        "url": "https://www.ixian.io"
+      },
+      "card3": {
+        "title": "IXI Names",
+        "subtitle": "Naming service powered by the Ixian platform. Secured by blockchain and expanding on the functionality of the traditional naming services.",
+        "additional": "Coming Soon",
+        "url": "https://www.ixian.com"
+      },
     }
   },
   "BuildFloater": {
     "title": "Let’s build your project",
-    "bookCall": "Book a Free Call"
+    "bookCall": "Book a Free Call",
+    "bookUrl": "mailto: call@ixilabs.com"
   },
   "Footer": {
-    "title": "Pioneering Decentralized Technologies",
+    "title": "Pioneering Decentralised Technologies",
     "copyright": "© {year} IXI Labs. All rights reserved.",
     "contact": {
       "slo": {
+        "company": "IXI Labs d.o.o.",
         "street": "Zaloška cesta 160C",
         "city": "1260 Ljubljana-Polje",
         "country": "Slovenija"
       },
       "eng": {
+        "company": "IXI Labs LTD",
         "street": "Suite 99 Milton Keynes Business Centre",
         "city": "Foxhunter Drive, Milton Keynes",
         "country": "United Kingdom"

@@ -18,11 +18,13 @@ const Footer = () => {
           </div>
           <div className={classes.rightContent}>
             <div className={classes.singleColumn}>
+              <Text type={'caption-02'}>{t('contact.slo.company')}</Text>
               <Text type={'caption-02'}>{t('contact.slo.street')}</Text>
               <Text type={'caption-02'}>{t('contact.slo.city')}</Text>
               <Text type={'caption-02'}>{t('contact.slo.country')}</Text>
             </div>
             <div className={classes.singleColumn}>
+              <Text type={'caption-02'}>{t('contact.eng.company')}</Text>
               <Text type={'caption-02'}>{t('contact.eng.street')}</Text>
               <Text type={'caption-02'}>{t('contact.eng.city')}</Text>
               <Text type={'caption-02'}>{t('contact.eng.country')}</Text>

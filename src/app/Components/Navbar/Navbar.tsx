@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link href={`#${Section.USE_CASES}`}>{t('useCases')}</Link>
           <Link href={`#${Section.TECH_PRODUCTS}`}>{t('tech')}</Link>
         </div>
-        <Button>{t('bookHere')}</Button>
+        <Button><Link href={t('bookUrl')}>{t('bookHere')}</Link></Button>
       </ContentWrapper>
     </nav>
   );

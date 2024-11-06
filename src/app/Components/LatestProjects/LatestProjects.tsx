@@ -29,27 +29,14 @@ const LatestProjects = () => {
         </div>
         <div className={classes.cards}>
           <div className={classes.card}>
-            <Image
-              src={ixiNamesBg}
-              alt={'ixi-names-bg'}
-              className={classes.bgImage}
-            />
-            <Image src={ixiNamesLogo} alt={'ixi-logo'} />
+            <Image src={spixiBg} alt={'spixi-bg'} className={classes.bgImage} />
+            <Image src={spixiLogo} alt={'spixi-logo'} />
             <Text type={'title-05'} as={'h1'}>
               {t('cards.card1.title')}
             </Text>
             <Text type={'body-03'}>{t('cards.card1.subtitle')}</Text>
-            <Text type={'subtitle-03'}>{t('cards.card1.additional')}</Text>
-          </div>
-          <div className={classes.card}>
-            <Image src={spixiBg} alt={'spixi-bg'} className={classes.bgImage} />
-            <Image src={spixiLogo} alt={'spixi-logo'} />
-            <Text type={'title-05'} as={'h1'}>
-              {t('cards.card2.title')}
-            </Text>
-            <Text type={'body-03'}>{t('cards.card2.subtitle')}</Text>
-            <Link href={'https://www.spixi.io/'} target={'_blank'}>
-              <Text type={'link'}>{t('cards.card2.additional')}</Text>
+            <Link href={t('cards.card1.url')} target={'_blank'}>
+              <Text type={'link'}>{t('cards.card1.additional')}</Text>
             </Link>
           </div>
           <div className={classes.card}>
@@ -60,12 +47,26 @@ const LatestProjects = () => {
             />
             <Image src={ixianLogo} alt={'ixian-logo'} />
             <Text type={'title-05'} as={'h1'}>
+              {t('cards.card2.title')}
+            </Text>
+            <Text type={'body-03'}>{t('cards.card2.subtitle')}</Text>
+            <Link href={t('cards.card2.url')} target={'_blank'}>
+              <Text type={'link'}>{t('cards.card2.additional')}</Text>
+            </Link>
+          </div>
+          <div className={classes.card}>
+            <Image
+                src={ixiNamesBg}
+                alt={'ixi-names-bg'}
+                className={classes.bgImage}
+            />
+            <Image src={ixiNamesLogo} alt={'ixi-logo'} />
+            <Text type={'title-05'} as={'h1'}>
               {t('cards.card3.title')}
             </Text>
             <Text type={'body-03'}>{t('cards.card3.subtitle')}</Text>
-            <Link href={'https://www.ixian.io/'} target={'_blank'}>
-              <Text type={'link'}>{t('cards.card3.additional')}</Text>
-            </Link>
+            <Text type={'subtitle-03'}>{t('cards.card3.additional')}</Text>
+            <Text type={'link'}>{t('cards.card3.additional')}</Text>
           </div>
         </div>
         <LetsBuildFloater />
