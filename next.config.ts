@@ -10,8 +10,8 @@ const nextConfig: import('next').NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? '/ProjectIxian/IXI-Labs-website/' : '',
-  assetPrefix: isProd ? '/ProjectIxian/IXI-Labs-website/' : '',
+  basePath: isProd ? '/ProjectIxian/IXI-Labs-website' : '',
+  assetPrefix: isProd ? '/ProjectIxian/IXI-Labs-website' : '',
 };
 
 export default withNextIntl(nextConfig);
