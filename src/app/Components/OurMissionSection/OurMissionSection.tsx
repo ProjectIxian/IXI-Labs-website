@@ -27,7 +27,7 @@ const OurMissionSection = () => {
           <div className={classes.info}>
             <Text type={'title-04'}>{t('info1.title')}</Text>
             <Text type={'subtitle-03'}>{t('info1.subtitle')}</Text>
-            <Text type={'body-03'}>{t('info1.body')}</Text>
+            <Text type={'body-03'}>{t('info1.body')}<br/><br/>{t('info1.footnote')}</Text>
           </div>
           <div className={classes.info}>
             <Text type={'title-04'}>{t('info2.title')}</Text>

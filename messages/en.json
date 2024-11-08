@@ -9,16 +9,17 @@
   },
   "HeroSection": {
     "title": "We Provide Greater Security & Reliability at Reduced Costs",
-    "subtitle": "Our solutions reduce infrastructure costs by up to 90%, while improving security, reliability and accessibility.",
+    "subtitle": "Our solutions can significantly reduce infrastructure costs, while improving security, reliability and accessibility.",
     "button": "Learn How You can Benefit"
   },
   "OurMission": {
     "title": "Our <blue>Mission</blue>",
     "subtitle": "At IXI Labs, we’re solving critical problems by redefining how authorisation and secure communications are managed in the digital world. We specialise in <blue>creating solutions</blue> where <blue>cryptography</blue> and <blue>user sovereignty</blue> are at the core.",
     "info1": {
-      "title": "100M+",
+      "title": "Over 100M*",
       "subtitle": "Messages Encrypted and Delivered",
-      "body": "Our solutions are running 24/7 on our decentralised, open-source network. Currently distributed and encrypted across 200+ nodes worldwide."
+      "body": "Our solutions are running 24/7 on our decentralised, open-source network. Currently distributed and encrypted across 200+ nodes worldwide.",
+      "footnote": "* Estimate extrapolated from push notification metrics"
     },
     "info2": {
       "title": "18.8K+",
@@ -28,7 +29,7 @@
     "info3": {
       "title": "8 <small>years</small>",
       "subtitle": "of Development",
-      "body": "Backed by 20 years of research, and 8 years of active development - we continue to build secure and encrypted solutions for the market needs."
+      "body": "Backed by 20 years of research in the fields of cryptography, distributed networks, highly scalable systems and data structures. With 8 years of active development, we continue to build secure and encrypted solutions for the market needs."
     }
   },
   "CuttingEdgeSection": {
@@ -41,7 +42,7 @@
     "subtitle": "In today’s digital landscape, the foundation of online identity, security and communication is fundamentally flawed.",
     "accordion1": {
       "title": "Security as a foundation, not an after-thought",
-      "subtitle": "Security aspects of an application or a service most of the times come as an after-thought and are too often sacrificed for other functionality due to tight deadlines and small budgets. IXI Labs designs all products with necessary security principles from the start.",
+      "subtitle": "Security aspects of an application or a service come as an after-thought most of the times. They are too often sacrificed for other functionality due to tight deadlines and small budgets. IXI Labs designs all products with necessary security principles from the start.",
       "subtitle2": "We use the same cryptographic and other security methods as used in our decentralised platform, currently relied on by tens of thousands of users for secure communication and transferring value in the form of tokens."
     },
     "accordion2": {
@@ -50,13 +51,14 @@
     },
     "accordion3": {
       "title": "Reduced Costs & Complexity",
-      "subtitle": "Your engineering teams don't require expensive security and network communication experts. We provide the necessary expertise and infrastructure, so you can focus on building the functionality which sets your service or product apart from the competition. Because the infrastructure is decentralised and largely handled by the community, the cost of DevOps, SysOps and general maintenance decreases."
+      "subtitle": "Your engineering teams don't require highly specialised security and network communication experts. We provide the necessary expertise and infrastructure, so you can focus on building the functionality which sets your service or product apart from the competition.",
+      "subtitle2": "Because the infrastructure is decentralised and largely handled by the community, the cost of DevOps, SysOps and general maintenance decreases."
     }
   },
   "OurServices": {
     "smallTitle": "WHAT WE SPECIALISE IN",
     "title": "Fullstack Encryption and Distributed Compute",
-    "subtitle": "At IXI Labs, we’re solving critical problems of the new digital world by redefining how <blue>identity, security</blue> and <blue>communications</blue> are managed in the digital world. We are a development agency specialising in creating solutions where <blue>cryptography, maximum availability</blue> and user <blue>sovereignty</blue> are at the core.",
+    "subtitle": "At IXI Labs, we’re solving critical problems of the new digital world by redefining how <blue>identity, security</blue> and <blue>communications</blue> are managed. We develop software and firmware solutions where <blue>cryptography, maximum availability</blue> and user <blue>sovereignty</blue> are at the core.",
     "cards": {
       "card1": {
         "title": "Public Key as Identity",
@@ -74,16 +76,16 @@
   },
   "UseCases": {
     "smallTitle": "USE CASES",
-    "title": "When high encryption, scalability and low cost solution is required.",
+    "title": "When advanced encryption, scalability and low cost solution is required.",
     "cards": {
       "readMore": "Read more",
       "card1": {
         "title": "Access Management",
-        "subtitle": "Access controls and management. Bridging technologies for a safe and secure environment."
+        "subtitle": "Access controls and management. Bridging technologies for a secure environment."
       },
       "card2": {
         "title": "Device Connectivity",
-        "subtitle": "User-to-user, user-to-device, device-to-device and the new way to operate in the IoT world."
+        "subtitle": "User-to-user, user-to-device, device-to-device and the secure way to operate in the IoT world."
       },
       "card3": {
         "title": "Communications",
@@ -97,7 +99,7 @@
     "cards": {
       "card1": {
         "title": "Spixi Private Chat",
-        "subtitle": "Spixi is an encrypted peer-to-peer messaging and communications app with exclusive features and reduced operational costs.",
+        "subtitle": "Spixi is an encrypted peer-to-peer communications app with exclusive features and reduced operational costs.",
         "additional": "Visit Spixi Website",
         "url": "https://www.spixi.io"
       },
@@ -116,7 +118,7 @@
     }
   },
   "BuildFloater": {
-    "title": "Let’s build your project",
+    "title": "Let’s build your project together.",
     "bookCall": "Book a Free Call",
     "bookUrl": "mailto: call@ixilabs.com"
   },

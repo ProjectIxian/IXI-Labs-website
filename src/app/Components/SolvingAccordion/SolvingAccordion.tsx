@@ -50,7 +50,9 @@ const SolvingAccordion = () => {
         <Text type={'body-02'}>{t('accordion2.subtitle')}</Text>
       </AccordionItem>
       <AccordionItem header={t('accordion3.title')}>
-        <Text type={'body-02'}>{t('accordion3.subtitle')}</Text>
+        <Text type={'body-02'}>{t('accordion3.subtitle')}</Text><br/>
+        <br/>
+        <Text type={'body-02'}>{t('accordion3.subtitle2')}</Text>
       </AccordionItem>
     </Accordion>
   );
