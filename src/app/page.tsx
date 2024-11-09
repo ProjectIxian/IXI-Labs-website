@@ -1,11 +1,11 @@
 import styles from './page.module.scss';
-import HeroSection from '@/app/Components/HeroSection/HeroSection';
-import OurMissionSection from '@/app/Components/OurMissionSection/OurMissionSection';
-import SolvingTheProblemSection from '@/app/Components/SolvingTheProblemSection/SolvingTheProblemSection';
-import CuttingEdgeSection from '@/app/Components/CuttingEdgeSection/CuttingEdgeSection';
-import UseCases from '@/app/Components/UseCases/UseCases';
-import LatestProjects from '@/app/Components/LatestProjects/LatestProjects';
-import OurServicesSection from '@/app/Components/OurServicesSection/OurServicesSection';
+import HeroSection from '@/components/HeroSection/HeroSection';
+import OurMissionSection from '@/components/OurMissionSection/OurMissionSection';
+import SolvingTheProblemSection from '@/components/SolvingTheProblemSection/SolvingTheProblemSection';
+import OurServicesSection from '@/components/OurServicesSection/OurServicesSection';
+import CuttingEdgeSection from '@/components/CuttingEdgeSection/CuttingEdgeSection';
+import UseCases from '@/components/UseCases/UseCases';
+import LatestProjects from '@/components/LatestProjects/LatestProjects';
 
 export default function Home() {
   return (
