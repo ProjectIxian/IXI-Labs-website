@@ -125,6 +125,7 @@
   "Footer": {
     "title": "Pioneering Decentralised Technologies",
     "copyright": "© {year} IXI Labs. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
     "contact": {
       "slo": {
         "company": "IXI Labs d.o.o.",

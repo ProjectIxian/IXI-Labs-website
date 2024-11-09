@@ -1,15 +1,14 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
-import './globals.scss';
+import '../globals.scss';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
-import Navbar from '@/app/Components/Navbar/Navbar';
-import Footer from '@/app/Components/Footer/Footer';
+import Navbar from '@/components/Navbar/Navbar';
+import Footer from '@/components/Footer/Footer';
+import { Poppins } from 'next/font/google';
 
-const getPoppinsRegular = localFont({
-  src: './fonts/Poppins-Regular.ttf',
-  variable: '--font-poppins-regular',
-  weight: '100 900',
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
 });
 
 export const metadata: Metadata = {
@@ -38,7 +37,7 @@ export default async function RootLayout({
       <head>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon.svg" />
       </head>
-      <body className={`${getPoppinsRegular.variable} `}>
+      <body className={poppins.className}>
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
