@@ -13,7 +13,7 @@
 }
 
 @mixin subtitle-03 {
-  font-size: 0.85rem;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.5rem;
   letter-spacing: -0.018rem;
@@ -21,7 +21,7 @@
 
 @mixin body-02 {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.5rem;
   letter-spacing: -2%;
 }
@@ -33,16 +33,23 @@
   letter-spacing: -0.018%;
 }
 
+@mixin title-02 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 4rem;
+  letter-spacing: -0.1rem;
+}
+
 @mixin title-03 {
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 3.5rem;
   letter-spacing: -0.06rem;
 }
 
 @mixin title-04 {
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 500;
   line-height: 3rem;
   letter-spacing: -0.04rem;
 }

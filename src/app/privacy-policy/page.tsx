@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <main className={classes.privacyPolicy}>
       <ContentWrapper className={classes.wrapper}>
-        <div style={{ textAlign: 'center' }}>
+        <div className={classes.title}>
           <Text type={'title-03'} as={'h1'}>
             Privacy Policy
           </Text>
@@ -385,9 +385,9 @@ const Page = () => {
         <p>
           <span>
             Here is a list of the rights that all individuals have under data
-            protection laws. They don't apply in all circumstances. When using
-            our website, you have the following rights guaranteed by applicable
-            law in regard to your personal information and data:
+            protection laws. They don&apos;t apply in all circumstances. When
+            using our website, you have the following rights guaranteed by
+            applicable law in regard to your personal information and data:
           </span>
         </p>
         <p>
@@ -471,7 +471,7 @@ const Page = () => {
             if you change your email address or other contact details, please
             let us know by sending an email outlining the changes to: info
           </span>
-          <a href="mailto:support@spixi.io">
+          <a href="mailto:info@ixilabs.com">
             <u>
               <span>@ixilabs.io</span>
             </u>
@@ -518,7 +518,7 @@ const Page = () => {
           <span>
             by us. In case you wish to obtain such data send an email to info
           </span>
-          <a href="mailto:support@spixi.io">
+          <a href="mailto:info@ixilabs.com">
             <u>
               <span>@ixilabs.io</span>
             </u>
@@ -566,8 +566,8 @@ const Page = () => {
             Internet sites, and it helps us provide you with a customised
             experience while enhancing the functionality of the website. You can
             freely prevent these cookies from being stored, however this may
-            downgrade certain elements of this websites' functionality. For more
-            general information
+            downgrade certain elements of this websites&apos; functionality. For
+            more general information
           </span>
         </p>
         <p>
@@ -586,7 +586,7 @@ const Page = () => {
             about cookies and the use of cookies on our website from this
             document, please contact us at info
           </span>
-          <a href="mailto:support@spixi.io">
+          <a href="mailto:info@ixilabs.com">
             <u>
               <span>@ixilabs.io</span>
             </u>
@@ -679,11 +679,11 @@ const Page = () => {
             Our website also uses Google Analytics to analyse the use of the
             Website. Google &nbsp;Analytics generates statistical and other
             information about website use &nbsp;by means of cookies, which are
-            stored on users' computers. The &nbsp;information generated relating
-            to our website is used to create reports about the use of the
-            website. Google will store and use &nbsp;this information. If you
-            want to learn more about Google's privacy &nbsp;policy you can read
-            it here:&nbsp;
+            stored on users&apos; computers. The &nbsp;information generated
+            relating to our website is used to create reports about the use of
+            the website. Google will store and use &nbsp;this information. If
+            you want to learn more about Google&apos;s privacy &nbsp;policy you
+            can read it here:&nbsp;
           </span>
           <a href="https://www.google.com/privacypolicy.html">
             <u>
@@ -732,9 +732,9 @@ const Page = () => {
         </Text>
         <p>
           <span>
-            It's important to note that if you change your settings and block
-            certain cookies, you won't be able to take full advantage of some
-            features of our site and its features.
+            It&apos;s important to note that if you change your settings and
+            block certain cookies, you won&apos;t be able to take full advantage
+            of some features of our site and its features.
           </span>
         </p>
         <p>
@@ -745,9 +745,9 @@ const Page = () => {
         </Text>
         <p>
           <span>
-            The consent you've given to store and read cookies can be withdrawn
-            at any time by setting your browser to disable cookies and/or to
-            remove all cookies from your browser.
+            The consent you&apos;ve given to store and read cookies can be
+            withdrawn at any time by setting your browser to disable cookies
+            and/or to remove all cookies from your browser.
           </span>
         </p>
         <p>
@@ -776,7 +776,7 @@ const Page = () => {
             If you have any questions about this Privacy Policy or any of the
             provision, you can contact us by email: info
           </span>
-          <a href="mailto:support@spixi.io">
+          <a href="mailto:info@ixilabs.com">
             <u>
               <span>@ixilabs.io</span>
             </u>

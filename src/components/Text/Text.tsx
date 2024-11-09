@@ -9,6 +9,7 @@ type TextTypes =
   | 'subtitle-03'
   | 'body-02'
   | 'body-03'
+  | 'title-02'
   | 'title-03'
   | 'title-04'
   | 'title-05'

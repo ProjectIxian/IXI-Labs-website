@@ -16,7 +16,7 @@ const HeroSection = () => {
     <section className={classes.heroSection}>
       <ContentWrapper className={classes.content}>
         <div className={classes.info}>
-          <Text as={'h1'} type={'title-03'}>
+          <Text as={'h1'} type={'title-02'}>
             {t('title')}
           </Text>
           <Text type={'body-02'} as={'span'}>

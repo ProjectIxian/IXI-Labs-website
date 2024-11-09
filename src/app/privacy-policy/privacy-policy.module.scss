@@ -10,6 +10,14 @@
   .wrapper {
     padding: 80px 230px;
 
+    .title {
+      text-align: center;
+
+      @include mq('sm') {
+        text-align: left;
+      }
+    }
+
     @include mq('sm') {
       padding: 16px;
     }
