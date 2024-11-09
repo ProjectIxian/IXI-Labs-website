@@ -469,11 +469,11 @@ const Page = () => {
             If you have any particular question regarding your rights or if any
             of the information that you have provided us with has changed, e.g.
             if you change your email address or other contact details, please
-            let us know by sending an email outlining the changes to: info
+            let us know by sending an email outlining the changes to:&nbsp;
           </span>
           <a href="mailto:info@ixilabs.com">
             <u>
-              <span>@ixilabs.io</span>
+              <span>info@ixilabs.io</span>
             </u>
           </a>
           <span>.</span>
@@ -516,11 +516,11 @@ const Page = () => {
         </p>
         <p>
           <span>
-            by us. In case you wish to obtain such data send an email to info
+            by us. In case you wish to obtain such data send an email to&nbsp;
           </span>
           <a href="mailto:info@ixilabs.com">
             <u>
-              <span>@ixilabs.io</span>
+              <span>info@ixilabs.io</span>
             </u>
           </a>
           <span>
@@ -584,11 +584,11 @@ const Page = () => {
             You can at any time change or withdraw your consent from the Cookie
             Policy page on our website. If you fail to receive any information
             about cookies and the use of cookies on our website from this
-            document, please contact us at info
+            document, please contact us at&nbsp;
           </span>
           <a href="mailto:info@ixilabs.com">
             <u>
-              <span>@ixilabs.io</span>
+              <span>info@ixilabs.io</span>
             </u>
           </a>
           <span>.</span>
@@ -774,11 +774,11 @@ const Page = () => {
         <p>
           <span>
             If you have any questions about this Privacy Policy or any of the
-            provision, you can contact us by email: info
+            provision, you can contact us by email:&nbsp;
           </span>
           <a href="mailto:info@ixilabs.com">
             <u>
-              <span>@ixilabs.io</span>
+              <span>info@ixilabs.io</span>
             </u>
           </a>
           <span>.&nbsp;</span>

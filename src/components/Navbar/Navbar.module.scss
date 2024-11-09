@@ -28,10 +28,12 @@
       gap: 44px;
 
       a {
-        @include caption-02;
+        &:not(:first-child) {
+          @include caption-02;
 
-        @include mq('sm') {
-          display: none;
+          @include mq('sm') {
+            display: none;
+          }
         }
       }
     }
