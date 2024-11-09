@@ -4,6 +4,8 @@ import Image from 'next/image';
 import footerLogo from '../../../public/assets/footer-logo.svg';
 import ContentWrapper from '@/components/ContentWrapper/ContentWrapper';
 import Text from '@/components/Text/Text';
+import Link from 'next/link';
+import { Routes } from '@/contants/contants';
 
 const Footer = () => {
   const t = useTranslations('Footer');
@@ -38,6 +40,9 @@ const Footer = () => {
               year: new Date().getFullYear()?.toString(),
             })}
           </Text>
+          <Link href={Routes.PP}>
+            <Text type={'link'}>{t('privacyPolicy')}</Text>
+          </Link>
         </div>
       </ContentWrapper>
     </footer>

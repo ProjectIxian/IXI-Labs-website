@@ -7,3 +7,10 @@ export const Section = {
 } as const;
 
 export type Sections = (typeof Section)[keyof typeof Section];
+
+export const Routes = {
+  INDEX: '/',
+  PP: '/privacy-policy',
+} as const;
+
+export type Route = (typeof Section)[keyof typeof Section];
