@@ -473,7 +473,7 @@ const Page = () => {
           </span>
           <a href="mailto:info@ixilabs.com">
             <u>
-              <span>info@ixilabs.io</span>
+              <span>info@ixilabs.com</span>
             </u>
           </a>
           <span>.</span>
@@ -520,7 +520,7 @@ const Page = () => {
           </span>
           <a href="mailto:info@ixilabs.com">
             <u>
-              <span>info@ixilabs.io</span>
+              <span>info@ixilabs.com</span>
             </u>
           </a>
           <span>
@@ -588,7 +588,7 @@ const Page = () => {
           </span>
           <a href="mailto:info@ixilabs.com">
             <u>
-              <span>info@ixilabs.io</span>
+              <span>info@ixilabs.com</span>
             </u>
           </a>
           <span>.</span>
@@ -758,7 +758,7 @@ const Page = () => {
             <span>
               These policies may be updated from time to time, so you may wish
               to check it each time you submit personal information to
-              ixinames.io
+              ixilabs.com
             </span>
           </strong>
         </p>
@@ -778,7 +778,7 @@ const Page = () => {
           </span>
           <a href="mailto:info@ixilabs.com">
             <u>
-              <span>info@ixilabs.io</span>
+              <span>info@ixilabs.com</span>
             </u>
           </a>
           <span>.&nbsp;</span>
