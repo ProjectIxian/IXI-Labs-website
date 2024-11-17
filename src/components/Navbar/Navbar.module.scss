@@ -15,13 +15,6 @@
     justify-content: space-between;
     align-items: center;
 
-    @include mq('xs') {
-      flex-direction: column;
-      padding: 16px;
-      gap: 8px;
-      align-items: flex-start;
-    }
-
     .links {
       display: flex;
       align-items: center;
@@ -30,12 +23,18 @@
       a {
         &:not(:first-child) {
           @include caption-02;
-
-          @include mq('sm') {
-            display: none;
-          }
         }
       }
+    }
+  }
+
+  .contentMobile {
+    padding: 16px;
+    overflow: unset;
+    position: relative;
+
+    > a {
+      max-height: 32px;
     }
   }
 }
