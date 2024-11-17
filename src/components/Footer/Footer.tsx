@@ -15,7 +15,13 @@ const Footer = () => {
       <ContentWrapper className={classes.wrapper}>
         <div className={classes.header}>
           <div className={classes.leftContent}>
-            <Image src={footerLogo} alt={'footer-img'} width={48} height={48} />
+            <Image
+              priority
+              src={footerLogo}
+              alt={'footer-img'}
+              width={48}
+              height={48}
+            />
             <Text type={'subtitle-02'}>{t('title')}</Text>
           </div>
           <div className={classes.rightContent}>

@@ -28,17 +28,21 @@ const OurServicesSection = () => {
         </div>
         <div className={classes.cards}>
           <div className={classes.card}>
-            <Image src={pubKeyImg} alt={'public-key-as-identity'} />
+            <Image priority src={pubKeyImg} alt={'public-key-as-identity'} />
             <Text type={'subtitle-03'}>{t('cards.card1.title')}</Text>
             <Text type={'body-02'}>{t('cards.card1.subtitle')}</Text>
           </div>
           <div className={classes.card}>
-            <Image src={authImg} alt={'self-sovereign-auth'} />
+            <Image priority src={authImg} alt={'self-sovereign-auth'} />
             <Text type={'subtitle-03'}>{t('cards.card2.title')}</Text>
             <Text type={'body-02'}>{t('cards.card2.subtitle')}</Text>
           </div>
           <div className={classes.card}>
-            <Image src={secCommImg} alt={'secure-communication-protocol'} />
+            <Image
+              priority
+              src={secCommImg}
+              alt={'secure-communication-protocol'}
+            />
             <Text type={'subtitle-03'}>{t('cards.card3.title')}</Text>
             <Text type={'body-02'}>{t('cards.card3.subtitle')}</Text>
           </div>

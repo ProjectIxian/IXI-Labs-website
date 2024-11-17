@@ -21,7 +21,12 @@ const LatestProjects = () => {
   return (
     <section className={classes.latestProjects} id={Section.TECH_PRODUCTS}>
       <ContentWrapper className={classes.content}>
-        <Image src={labsBg} alt={'labs-img'} className={classes.labsBg} />
+        <Image
+          priority
+          src={labsBg}
+          alt={'labs-img'}
+          className={classes.labsBg}
+        />
         <div className={classes.text}>
           <Text type={'subtitle-03'} className={'blueText'}>
             {t('smallTitle')}
@@ -30,8 +35,13 @@ const LatestProjects = () => {
         </div>
         <div className={classes.cards}>
           <div className={classes.card}>
-            <Image src={spixiBg} alt={'spixi-bg'} className={classes.bgImage} />
-            <Image src={spixiLogo} alt={'spixi-logo'} />
+            <Image
+              priority
+              src={spixiBg}
+              alt={'spixi-bg'}
+              className={classes.bgImage}
+            />
+            <Image priority src={spixiLogo} alt={'spixi-logo'} />
             <Text type={'title-05'} as={'h1'}>
               {t('cards.card1.title')}
             </Text>
@@ -42,11 +52,12 @@ const LatestProjects = () => {
           </div>
           <div className={classes.card}>
             <Image
+              priority
               src={ledgerBg}
               alt={'ledger-bg'}
               className={classes.bgImage}
             />
-            <Image src={ixianLogo} alt={'ixian-logo'} />
+            <Image priority src={ixianLogo} alt={'ixian-logo'} />
             <Text type={'title-05'} as={'h1'}>
               {t('cards.card2.title')}
             </Text>
@@ -57,11 +68,12 @@ const LatestProjects = () => {
           </div>
           <div className={classes.card}>
             <Image
+              priority
               src={ixiNamesBg}
               alt={'ixi-names-bg'}
               className={classes.bgImage}
             />
-            <Image src={ixiNamesLogo} alt={'ixi-logo'} />
+            <Image priority src={ixiNamesLogo} alt={'ixi-logo'} />
             <Text type={'title-05'} as={'h1'}>
               {t('cards.card3.title')}
             </Text>

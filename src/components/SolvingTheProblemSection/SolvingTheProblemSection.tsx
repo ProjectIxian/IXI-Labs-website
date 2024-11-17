@@ -26,6 +26,7 @@ const SolvingTheProblemSection = () => {
           <SolvingAccordion />
         </div>
         <Image
+          priority
           src={solvingProblemImg}
           alt={'solving-problem-img'}
           className={classes.solvingImage}

@@ -21,7 +21,7 @@ const Navbar = () => {
     <>
       <div className={classes.links}>
         <Link href={Routes.INDEX}>
-          <Image src={spixiLabsLogo} alt={'spixi-labs-logo'} />
+          <Image priority src={spixiLabsLogo} alt={'spixi-labs-logo'} />
         </Link>
         <Link href={`${Routes.INDEX}#${Section.SERVICES}`}>
           {t('services')}
@@ -42,7 +42,7 @@ const Navbar = () => {
   const mobileMenu = (
     <>
       <Link href={Routes.INDEX}>
-        <Image src={spixiLabsLogo} alt={'spixi-labs-logo'} />
+        <Image priority src={spixiLabsLogo} alt={'spixi-labs-logo'} />
       </Link>
       <HamburgerMenu />
     </>
