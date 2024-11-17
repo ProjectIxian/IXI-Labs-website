@@ -27,6 +27,7 @@ const HeroSection = () => {
           </Link>
         </div>
         <Image
+          priority
           src={heroImage}
           alt={'hero-image'}
           className={classes.heroImage}

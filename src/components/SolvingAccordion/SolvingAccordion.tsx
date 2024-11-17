@@ -19,6 +19,7 @@ const SolvingAccordion = () => {
         <>
           {header}
           <Image
+            priority
             className={classes.expand}
             src={expandImg}
             alt="Chevron Down"

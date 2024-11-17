@@ -25,19 +25,27 @@ const UseCases = () => {
         </div>
         <div className={classes.cards}>
           <div className={classes.card}>
-            <Image src={accessManagement} alt={'access-management-img'} />
+            <Image
+              priority
+              src={accessManagement}
+              alt={'access-management-img'}
+            />
             <Text type={'subtitle-03'}>{t('cards.card1.title')}</Text>
             <Text type={'body-03'}>{t('cards.card1.subtitle')}</Text>
             {/*<Text type={'link'}>{t('cards.readMore')}</Text>*/}
           </div>
           <div className={classes.card}>
-            <Image src={deviceConnectivity} alt={'device-connectivity-img'} />
+            <Image
+              priority
+              src={deviceConnectivity}
+              alt={'device-connectivity-img'}
+            />
             <Text type={'subtitle-03'}>{t('cards.card2.title')}</Text>
             <Text type={'body-03'}>{t('cards.card2.subtitle')}</Text>
             {/*<Text type={'link'}>{t('cards.readMore')}</Text>*/}
           </div>
           <div className={classes.card}>
-            <Image src={communications} alt={'communications-img'} />
+            <Image priority src={communications} alt={'communications-img'} />
             <Text type={'subtitle-03'}>{t('cards.card3.title')}</Text>
             <Text type={'body-03'}>{t('cards.card3.subtitle')}</Text>
             {/*<Text type={'link'}>{t('cards.readMore')}</Text>*/}

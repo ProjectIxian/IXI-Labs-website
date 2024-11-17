@@ -14,6 +14,7 @@ const CuttingEdgeSection = () => {
   return (
     <section className={classes.cuttingEdge}>
       <Image
+        priority
         src={cuttingEdgeImg}
         alt={'cutting-edge-img'}
         className={classes.bgImage}

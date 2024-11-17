@@ -5,6 +5,10 @@
   background: linear-gradient(180deg, #112935 50%, #183c4b 90%);
   scroll-margin-top: 80px;
 
+  @include mq('sm') {
+    scroll-margin-top: 68px;
+  }
+
   .content {
     padding: 80px 24px;
     display: flex;
