@@ -12,13 +12,13 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'IXI Labs Website',
+  title: 'IXI Labs - Software Solutions built on the Ixian Decentralised Platform',
   description:
-    'Building Centralized Solutions on a Decentralized Network. Delivering market ready solutions at a fraction of the cost.',
+    'IXI Labs creates efficient and decentralised software using Ixian blockchain technology. We bring innovative solutions to market quickly and affordably.',
   openGraph: {
-    title: 'IXI Labs - Building the Internet of Tomorrow',
+    title: 'IXI Labs - Software Solutions built on the Ixian Decentralised Platform',
     description:
-      'Building Centralized Solutions on a Decentralized Network. Delivering market ready solutions at a fraction of the cost.',
+      'IXI Labs creates efficient and decentralised software using Ixian blockchain technology. We bring innovative solutions to market quickly and affordably.',
     images: ['http://www.ixilabs.com/images/IXILabsOG.jpg'],
     type: 'website',
   },
