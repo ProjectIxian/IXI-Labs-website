@@ -31,8 +31,6 @@ const HeroSection = () => {
           src={heroImage}
           alt={'hero-image'}
           className={classes.heroImage}
-          width={625}
-          height={640}
         />
       </ContentWrapper>
     </section>
