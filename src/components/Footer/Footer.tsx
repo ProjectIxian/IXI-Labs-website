@@ -6,6 +6,7 @@ import ContentWrapper from '@/components/ContentWrapper/ContentWrapper';
 import Text from '@/components/Text/Text';
 import Link from 'next/link';
 import { Routes } from '@/contants/contants';
+import Copyright from "@/components/Copyright/Copyright";
 
 const Footer = () => {
   const t = useTranslations('Footer');
@@ -41,11 +42,7 @@ const Footer = () => {
         </div>
         <div className={classes.divider} />
         <div className={classes.copyright}>
-          <Text type={'caption-01'}>
-            {t('copyright', {
-              year: new Date().getFullYear()?.toString(),
-            })}
-          </Text>
+          <Copyright />
           <Link href={Routes.PP}>
             <Text type={'link'}>{t('privacyPolicy')}</Text>
           </Link>
